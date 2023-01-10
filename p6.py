@@ -26,6 +26,6 @@ def alphabeta(depth,idx,maximize,vals,alpha,beta):
         return best
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     values = [2,3,5,9,0,1,7,5]
     print(f"Result = {alphabeta(0, 0, True, values, MIN, MAX)}")
