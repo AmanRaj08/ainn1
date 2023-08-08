@@ -1,4 +1,4 @@
-P1.
+
 import random
 def display(room):
     print(room)
